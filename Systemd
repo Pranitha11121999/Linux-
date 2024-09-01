@@ -1,0 +1,17 @@
+# SystemD
+> We all need a stable operating system
+- Linux is one such operiating system 
+- For making Linux such a reliable system there should be some managemnet system thats controlling the ordered chaos that we are observing.
+- That ordered chao is 'SystemD'
+## SystemD
+   SystemD works as a administrator and looks after maintainance tasks
+     Namely 
+      1. Controlling startuo options
+      2. Managing system resources 
+      3. Logging and Journaling 
+      4. Mounting Devices 
+
+**Keywords:**
+1. Systemd Targets: The list of services taht boots up or list that needs to stop when the service stats or ends respectively 
+2. Syetem Unit: Controls the specific funtion or perform a perticular action.
+
