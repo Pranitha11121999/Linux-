@@ -1,0 +1,10 @@
+1. In the linux we are running a Program so the linux is installed in the hardware 
+2. First we need to know where am I currently 
+  1. pwd - print working directory 
+  2. ls - list of directories 
+(**ll is a shortcut for ls -la**)
+3. ls -l -a(when we use -a we get all the files including the hidden files)
+4. . - is the current directory
+5. .. - is the previous directory 
+6. mkdir - create directory
+    - for using already created path we need to use mkdir -p <path>
