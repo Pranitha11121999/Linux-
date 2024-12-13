@@ -1,17 +1,39 @@
 Users:- 
 
-A good proceess in Linux creates User 
+A good process in Linux creates a User. 
 
 Group:-
-Collection of users a specific set of permission
+Collection of users with a specific set of permission
 
-Root is god user that can do anything 
+Root is a God user that can do anything 
 -each hard disk has many partitions
-- the operating system will always communicate with the index(just like index of a book)
-- the index exsist in /data/abc.txt 
-When we have used a pendrive with windows and later used it with linux we face issues?
+- the operating system will always communicate with the index(just like the index of a book)
+- the index exists in /data/abc.txt 
+How is memory stored?
+1. We store it in 2 points: 
+  a. INNODE - metadata- Owner, Group, Permission, SIZE, Time, Creation or Last modified df -hTi 
+  b. DATA
+- Even if the file gets deleted, the inode helps us with the recovery 
+- as the os interacts with the inode, if the inode is full, the memory is full even though we have some memory 
+-hT - human-readable 
+df -T - shows me the type of files
+df -hT - shows me in human-readable with the type 
+note: in memory, IT need not be a consecutive 
 
-8gb pendrive why it shows 7.56 gb ?
-gib and gb
+We faced issues when we used a pen drive with Windows and later with Linux.
+
+8 GB pendrive. Why does it show 7.56 GB?
+Gib and gb
 
 file types - xfs,ext4 
+
+lsblk - hw !!!
+
+LINKS:-
+- In the windows, I can create a shortcut 
+- so that short cut are called links 
+- If we delete the links, it doesn't remove the data but just that shortcut
+  - Hard Link:
+        - 
+  - Soft Link:
+        - Shortcut 
