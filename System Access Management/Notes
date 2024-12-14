@@ -1,0 +1,18 @@
+PKG -> code + dependency 
+ex: python, SQL, Mongo, Nginx 
+- The Package manager does the installation, Updatation, and Deletion 
+- For Debian, we have two package manager 
+  1. APT (Advanced Package Tool)- > Install both the code and Dependency
+  2. DPKG (Debian Pkg Manager) -> Install only the code 
+- we use the low-level DPKG when we are working in scale applications it better to use the low-level packages 
+- apt upgrade 
+- apt install 
+- apt install <name> - y then we do not have to deal with answering the yes-no questions 
+
+-For Red Hat - YUM (YellowDog update modified) - years ago, it was only called Yellowdog update
+
+Update - Servers info syncs with the central repo 
+
+Upgrade - also installing 
+
+nginx - is a proxy
