@@ -33,7 +33,25 @@ LINKS:-
 - In the windows, I can create a shortcut 
 - so that short cut are called links 
 - If we delete the links, it doesn't remove the data but just that shortcut
+- is it possible to create links for directories?
+  - we cannot create it for directories 
+- Will it be created in the same directory?
+  - it need not be created in the same directory
+
   - Hard Link:
-        - 
+        - It is the same but called different, but it refers to the same thing (kind of creating a copy but we are not duplicating the memory but we are referencing it through the same inode)
+        - the use of the Hardlink is the need for the backup 
+    
   - Soft Link:
-        - Shortcut 
+        - Shortcut (it references to that original file )
+
+- ln - create links (ln <target> <directory>)
+- so we have created a file and now create a hard link in the hard link if we made the modifications, that will get reflected in the original file 
+- ln -s <target> <directory> - this will create a soft link  - when we create a soft link file and update it, the soft link will also get updated 
+ls -li gives info of inodes 
+- the parameters of the hard link and original files are the same.
+- but the soft link has a different
+- the soft link looks like abc-soft-link.txt -> abc.txt
+
+
+find / inum <num>
