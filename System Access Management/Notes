@@ -20,5 +20,10 @@ nginx - is a proxy
 
 User Management:
  - Users
+    - useradd <name>
+    - usermod -a(append add the uses to groups with out removing from the present group) -G(add the list of supplemanry groups) <group> <user>
+
+
  - Groups 
+    - groupadd <name>
 
