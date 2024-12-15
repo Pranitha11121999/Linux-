@@ -21,13 +21,40 @@ nginx - is a proxy
 User Management:
  - Users
     - useradd -m <name>
-    - usermod -a(append add the uses to groups with out removing from the present group) -G(add the list of supplemanry groups) <group> <user>
+    - usermod -a(append add the uses to groups without removing from the present group) -G(add the list of supplemanry groups) <group> <user>
 
 
  - Groups 
     - groupadd <name>
 
-- Check where to locate we can see cat /etc/passwd
+- Check here to locate we can see cat /etc/passwd
                                     cat /etc/group
 
 - id (**root has 0**)
+
+Permissions:
+-> -rw- r-- r--
+- the first - is for the type (regular file or a directory)
+- r - read - 4
+- w - write - 2
+- x - execute - 1
+-> -rw is the permission for the ROOT user 
+-> r-- is the permission for the group
+-> r-- is the permission for others 
+- Precedence of rules -> The users take more precedence over the group 
+- CHMOD 744 -> 
+- when we are changing permission, we write chowm <user>:<newowner> file name
+chmod 7(4+2+1)4(4)4(4) 
+- chowm is used to change the ownership of the file 
+- The syntax for chown is:
+  chown user:group filename
+  There are 3 main ways to use it (from the class examples):
+  
+  Change only user ownership:
+  chown username filename
+  Change only group ownership:
+  chown :groupname filename
+  Change both user and group ownership:
+  chown username:groupname filename
+
+
