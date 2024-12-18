@@ -1,3 +1,6 @@
+### What is an Operating System?
+> Interface between Hardware and Software 
+
 1. In the linux we are running a Program so the linux is installed in the hardware 
 2. First we need to know where am I currently 
   1. pwd - print working directory 
