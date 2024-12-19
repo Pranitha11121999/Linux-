@@ -4,6 +4,15 @@ Software - no touch and feel but can experience it
 Hardware - Touch and feel
 Examples of OS:- Windows, LINUX, UNIX, ios, android
 
+Basic Functions of OS:-
+1. Memory management
+2. File Management
+3. I/O Management
+4. Process Management
+5. Security Management
+
+Tenancy - Multiple user can use it at the same time 
+
 1. In the Linux we are running a Program so the Linux is installed in the hardware 
 2. First we need to know where am I currently 
   1. pwd - print working directory 
