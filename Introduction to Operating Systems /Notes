@@ -1,7 +1,10 @@
 ### What is an Operating System?
 > Interface between Hardware and Software 
+Software - no touch and feel but can experience it 
+Hardware - Touch and feel
+Examples of OS:- Windows, LINUX, UNIX, ios, android
 
-1. In the linux we are running a Program so the linux is installed in the hardware 
+1. In the Linux we are running a Program so the Linux is installed in the hardware 
 2. First we need to know where am I currently 
   1. pwd - print working directory 
   2. ls - list of directories 
