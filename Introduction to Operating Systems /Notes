@@ -31,4 +31,10 @@ Tenancy - Multiple user can use it at the same time
 12. head
 13. touch - it creates and also updates the timestamp
 14. chmod
-15. 
+15. grep
+16. mv - it moves and also renames the files
+17. awk - printing out values of only one file 
+18. free -h - for human readable 
+        -m in mega 
+(please explain the output of free command)-interview question
+19. vim or vi - vi is the older version, new is vim 
