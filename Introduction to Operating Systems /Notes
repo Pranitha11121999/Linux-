@@ -23,3 +23,12 @@ Tenancy - Multiple user can use it at the same time
 5. .. - is the previous directory 
 6. mkdir - create directory
     - for using already created path we need to use mkdir -p <path>
+7. man
+8. watch
+9. cat - content of the file will be visible or if we what to concatinate 
+10. tail
+11. more/less
+12. head
+13. touch - it creates and also updates the timestamp
+14. chmod
+15. 
