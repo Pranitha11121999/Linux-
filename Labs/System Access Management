@@ -1,0 +1,5 @@
+User management
+- based on the users we need to determine access a perticular box defined as user and group 
+- su - switch user
+- see the groups from etc
+- usermod -aG - Append instead of removing user from other groups 
