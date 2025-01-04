@@ -1,0 +1,99 @@
+- In Linux, we see the last Modified, but for Windows we see created time 
+
+Process and Threads:
+- why?
+	- Optimize usage of Resources (like CPU and RAM)
+	- Inter Dependency 
+	- Concurrency 
+	- Parallelism 
+	- Deadlocks
+Car Factory 
+Things that need to be done to make a car 
+1. Engine
+2. Tyres 
+3. Body 
+4. Interior
+
+So a Factory Manager makes sure that the correct process gets the right parts like for tyre we need rubber, headlights we need bulds and reflective surface 
+
+- In Linux command to see the process -> ps top 
+					              htop 
+						  -ef
+
+
+%CPU - CPU utilization
+%MEM - Memory utilization 
+VSZ - virtual memory Size 
+RSS:
+Resident Set Size, the amount of physical memory the process is using (in kilobytes).
+STAT:
+The process state:
+S: Sleeping.
+s: A session leader.
+These states provide information about what the process is doing.
+START:
+The time or date when the process was started.
+TIME:
+The amount of CPU time consumed by the process since it started.
+COMMAND:
+The command that was used to start the process, showing its path or executable name (e.g., /sh).
+
+ps -ef 
+uid - user id 
+pid - process id and its unique no process are repeated 
+proc file has the process stored 
+ppid - parent process id 
+       - 0 is the main process like it happens in the boot process 
+
+
+- parent process and child process 
+	The parents starts the child process 
+C:
+CPU utilization of the process (as a percentage or load factor).
+STIME:
+The start time of the process, indicating when the process was started (e.g., 15:26 in this image).
+TTY:
+The terminal associated with the process. A ? here indicates that the process is not attached to any terminal (e.g., system services or background processes).
+TIME:
+The amount of CPU time the process has used since it started.
+
+pstree -p shows process id and tree version 
+
+Types of Process 
+1. Interactive - Direct user Input 
+		Short level
+2. Batch - Scheduling Process that is being used 
+		Backup -> Database Backup
+		Log Rotation 
+3. Demon - any process that is in background 
+	every demon process is backgroud 
+	if the tty is ? then its not associated to any terminal but runs in background 
+	
+4. Real Time Process - Time Constarint is required 
+			 crucial process needs immediate resources 
+
+Process States
+1) Running(R) - Currently running on CPU
+2) Sleeping (S)
+3) Zombie (Z) - Waiting for acknologment from parent process
+	The process of itself is done and just waiting 
+4) Idel (I) - got a interrupt
+
+	      Waiting to be Executed 
+		It has not completed its process 
+
+5) Orphan(
+6) Stopped(T) - !Running
+		ended, Terminated 
+
+
+
+
+
+
+
+
+
+	
+
+
